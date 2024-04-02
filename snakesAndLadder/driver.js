@@ -22,7 +22,7 @@ try{
 
     const ladderLen = await rl.question('Ladder? ')
     for (let i=0; i< ladderLen; i++){
-        const postions = await rl.question('snake position ? ')
+        const postions = await rl.question('Ladder position ? ')
         ladderArr.push(postions.split(" ").map((val) => parseInt(val)))
     }
     console.log(ladderArr)
